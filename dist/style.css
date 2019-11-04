@@ -1,0 +1,14 @@
+h1 {
+  color: black;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.btn:hover {
+  background: black;
+}
+
+/*# sourceMappingURL=style.css.map */
