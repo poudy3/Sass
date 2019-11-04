@@ -13,6 +13,15 @@ h1{
     font-size: 25px;
 
     &:hover{
-        background: $dark;
+        background: $light;
+    }
+
+    &-danger{
+        background: $danger;
+        color: $light;
+    }
+    &-warning{
+        background: $warning;
+        color: $light;
     }
 }

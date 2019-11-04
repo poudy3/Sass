@@ -8,7 +8,15 @@ h1 {
   font-size: 25px;
 }
 .btn:hover {
-  background: black;
+  background: lightblue;
+}
+.btn-danger {
+  background: red;
+  color: lightblue;
+}
+.btn-warning {
+  background: orange;
+  color: lightblue;
 }
 
 /*# sourceMappingURL=style.css.map */
