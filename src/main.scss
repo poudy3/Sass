@@ -1,8 +1,6 @@
-$danger: red;
-$warning: orange;
-$success: green;
-$dark: black;
-$light: lightblue;
+@import "variables.scss";
+@import "mixins.scss";
+
 
 h1{
     color: $dark;
@@ -23,5 +21,14 @@ h1{
     &-warning{
         background: $warning;
         color: $light;
+        @include camion(red);
     }
+}
+
+
+h1{
+    @include camion(blue); 
+}
+p{
+    @include camion(green); 
 }
