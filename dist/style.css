@@ -34,4 +34,20 @@ p {
   font-size: 30px;
 }
 
+.alert-warning, .alert-danger {
+  padding: 30px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: lightblue;
+}
+
+.alert-danger {
+  background: red;
+}
+
+.alert-warning {
+  background: orange;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -32,3 +32,20 @@ h1{
 p{
     @include camion(green); 
 }
+
+%alert{ 
+    padding:30px;
+    font-size: 20px;
+    border: 1px solid $dark;
+    border-radius: 20px;
+    color: $light;
+}
+
+.alert-danger{
+    @extend %alert;
+    background: $danger;
+}
+.alert-warning{
+    @extend %alert;
+    background: $warning;
+}
